@@ -5,14 +5,20 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCore.JSInterop", "src\BlazorCore.JSInterop\BlazorCore.JSInterop.csproj", "{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66ECD769-388C-4646-A577-F134BF08A6A0}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA12FFC5-8F04-4B9C-A2C2-287F17F92BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

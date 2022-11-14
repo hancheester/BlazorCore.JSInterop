@@ -6,12 +6,23 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Company></Company>
-    <PackageTags>blazor,jsinterop,javascript</PackageTags>
-    <Authors>hanchee</Authors>
-    <Version>1.0.1</Version>
+    <PackageTags>blazor;jsinterop;javascript;browser api;</PackageTags>
+    <Authors>Han Chee Tan</Authors>
+    <Version>$(VersionPrefix)</Version>
+    <VersionPrefix>1.0.1.1</VersionPrefix>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Copyright>©2022 Han Chee Tan</Copyright>
+    <RepositoryUrl>https://github.com/hancheester/BlazorCore.JSInterop</RepositoryUrl>
+    <Description>Blazor component that provides access to browser API.</Description>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>False</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
 
 
   <ItemGroup>
