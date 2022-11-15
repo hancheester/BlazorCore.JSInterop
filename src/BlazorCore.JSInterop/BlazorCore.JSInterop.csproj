@@ -9,7 +9,7 @@
     <PackageTags>blazor;jsinterop;javascript;browser api;</PackageTags>
     <Authors>Han Chee Tan</Authors>
     <Version>$(VersionPrefix)</Version>
-    <VersionPrefix>1.0.2</VersionPrefix>
+    <VersionPrefix>1.0.3</VersionPrefix>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Copyright>©2022 Han Chee Tan</Copyright>
